@@ -1,6 +1,10 @@
 # openAI-API-documentation
 
-Hello, and welcome to my OpenAI api wrapper. This is an easy to use wrapper that can be used FULLY client side. No need for NodeJS!
+Hello, and welcome to my OpenAI api wrapper. This is an easy to use wrapper that can be used FULLY client side. No need to setup a serverside environment.  
+
+Written by Dominic. 2023. 
+
+*azonix*
 
 ## /gpt/gpt35/api
 
