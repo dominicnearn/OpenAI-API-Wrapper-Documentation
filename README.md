@@ -1,6 +1,7 @@
 # openAI-API-documentation
 
-```async function requestGPT() { // This function can be renamed to anything.
+```js
+async function requestGPT() { // This function can be renamed to anything.
     let mainBody = JSON.stringify({
         prompt: 'example prompt',
         key: '', // Place OpenAI API key in this string.
