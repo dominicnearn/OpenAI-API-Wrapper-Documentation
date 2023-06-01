@@ -31,3 +31,5 @@ async function requestGPT() { // This function can be renamed to anything.
 ```
 
 You may use my API for whatever, but please provide credit somewhere in your webpage. Thanks!
+
+*your API key is never saved to the server. if you wish to donate please cashapp $azonix*
