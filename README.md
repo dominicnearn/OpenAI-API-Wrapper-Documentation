@@ -25,7 +25,7 @@ async function requestGPT() { // This function can be renamed to anything.
     });
     if (response.ok) {
         let apiResponse = await response.text();
-        console.log(apiResponse); // The default is to log the response. The response will always respond with a string. Nev
+        console.log(apiResponse); // The wrapper will always respond with a plain-text string.
     }
 };
 ```
