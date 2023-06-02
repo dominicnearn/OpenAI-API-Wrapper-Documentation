@@ -27,9 +27,9 @@ async function requestGPT() { // This function can be renamed to anything.
         key: '', // Place OpenAI API key in this string.
     });
     let res = await fetch('https://cs.catlin.edu/node/2023/dominic/gpt/gpt35/api', { // Requests my API with the arguments provided above.
-        method: "POST", // Post to the server (supports JSON)
+        method: 'POST', // Post to the server (supports JSON)
         body: bodyArgs, // Defines the body that we filled out above.
-        headers: {"Content-Type": "application/json"} // Default headers that are sent to the server specifying what is actually being set.
+        headers: {'Content-Type': 'application/json'} // Default headers that are sent to the server specifying what is actually being set.
     });
     if (res.ok) { // Checks to ensure the response came back.
         let apiResponse = await response.text(); // Waits for response with await function. 
