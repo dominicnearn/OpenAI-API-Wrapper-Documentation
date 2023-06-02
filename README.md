@@ -48,7 +48,7 @@ Error `500`: This is an OpenAI issue and cannot be fixed. Wait a few hours then 
 
 ## Closing
 
-You may use my API for whatever, but please provide credit somewhere in your webpage. Thanks!
+You may use my wrapper for whatever, but please provide credit somewhere in your webpage or code. Thanks!
 
 *your API key is never saved to the server. made by dominic as part of a computer science project. if you want to an API wrapped, just let me know.*
 
