@@ -6,6 +6,14 @@ Written by Dominic. 2023.
 
 *azonix*
 
+## But what is a wrapper?
+
+A wrapper can be thought of a candy wrapper. It wraps all the complicated code into a more simple API request that takes far less time to write and debug. This wrapper is to make it easier to users to use OpenAI's API. If you're just getting started writing post, fetch, and get functions this is a perfect place to start. 
+
+If you require help, do not hesitate to talk to me in-person or email me at `nearnd@catlin.edu`.
+
+You may find each API endpoint below.
+
 ## /gpt/gpt35/api
 
 This API takes two arguments (prompt and key). The prompt arg is what prompt you want the AI to write or generate. The key arg is your OpenAI API key. You must get an OpenAI key to use this API. You may find instructions for generating a key will be find [here](https://help.socialintents.com/article/188-how-to-find-your-openai-api-key-for-chatgpt). If you submit an invalid argument, the API will return with an error that will tell you the error code as well as what actually went wrong. Please note that this API is versatile, but should never be used in a public setting and only used in private testing to learn more about APIs. *this is because the API key is stored client side versus serverside* A wrapper on the server side is coming soon.
