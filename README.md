@@ -23,17 +23,17 @@ An example of how you may request from the API can be found below as a function.
 ```js
 async function requestGPT() { // This function can be renamed to anything.
     let bodyArgs = JSON.stringify({
-        prompt: 'example prompt',
+        prompt: 'example prompt', // Place the source of your prompt or the string of your prompt in here. This is what you are asking the chat bot.
         key: '', // Place OpenAI API key in this string.
     });
-    let response = await fetch('https://cs.catlin.edu/node/2023/dominic/gpt/gpt35/api', {
-        method: "POST",
-        body: bodyArgs,
-        headers: {"Content-Type": "application/json"}
+    let res = await fetch('https://cs.catlin.edu/node/2023/dominic/gpt/gpt35/api', { // Requests my API with the arguments provided above.
+        method: "POST", // Post to the server (supports JSON)
+        body: bodyArgs, // Defines the body that we filled out above.
+        headers: {"Content-Type": "application/json"} // Default headers that are sent to the server specifying what is actually being set.
     });
-    if (response.ok) {
-        let apiResponse = await response.text();
-        console.log(apiResponse); // The wrapper will always respond with a plain-text string.
+    if (res.ok) { // Checks to ensure the response came back.
+        let apiResponse = await response.text(); // Waits for response with await function. 
+        console.log(apiResponse); // The wrapper will always respond with a string. You can do whatever you want with this now. This will log it  to your web development console. You may access it through CTRL-SHIFT-I.
     }
 };
 ```
