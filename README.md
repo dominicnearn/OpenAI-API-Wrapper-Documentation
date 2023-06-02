@@ -50,6 +50,6 @@ Error `500`: This is an OpenAI issue and cannot be fixed. Wait a few hours then 
 
 You may use my API for whatever, but please provide credit somewhere in your webpage. Thanks!
 
-*your API key is never saved to the server. if you wish to donate please cashapp $azonix*
+*your API key is never saved to the server. made by dominic as part of a computer science project. if you want to an API wrapped, just let me know.*
 
 last updated: `1/6/2023` (DD/MM/YYYY)
