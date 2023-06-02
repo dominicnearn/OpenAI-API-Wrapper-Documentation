@@ -40,7 +40,7 @@ async function requestGPT() { // This function can be renamed to anything.
 
 ## Common errors
 
-Error `401`: This is likely caused due to an invalid API key. Ensure that your API key is encased in a string. 
+Error `401`: This is likely caused by an invalid API key. Ensure that your API key is encased in a string. 
 
 Error `429`: You likely sent too many requests to the server, cool off for a few minutes then try again. If this does not fix this issue you may have ran out of tokens on your OpenAI account. It's also possible OpenAI's servers are overloaded and cannot fulfill your request.
 
