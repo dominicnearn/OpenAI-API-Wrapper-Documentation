@@ -1,4 +1,4 @@
-# openAI-API-documentation
+# OpenAI-API-Wrapper-Documentation
 
 Hello, and welcome to my OpenAI api wrapper. This is an easy to use wrapper that can be used FULLY client side. No need to setup a serverside environment.  
 
