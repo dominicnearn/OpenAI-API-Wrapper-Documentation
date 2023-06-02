@@ -22,13 +22,13 @@ An example of how you may request from the API can be found below as a function.
 
 ```js
 async function requestGPT() { // This function can be renamed to anything.
-    let mainBody = JSON.stringify({
+    let bodyArgs = JSON.stringify({
         prompt: 'example prompt',
         key: '', // Place OpenAI API key in this string.
     });
     let response = await fetch('https://cs.catlin.edu/node/2023/dominic/gpt/gpt35/api', {
         method: "POST",
-        body: mainBody,
+        body: bodyArgs,
         headers: {"Content-Type": "application/json"}
     });
     if (response.ok) {
