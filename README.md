@@ -14,7 +14,21 @@ If you require help, do not hesitate to talk to me in-person or email me at `nea
 
 You may find each API endpoint below.
 
-## /gpt/gpt35/api
+## Why use my wrapper?
+
+Setting up the relevant OpenAI code is long and tricky, especially for first time programmers! In order to make it easier for people to access these wonderful tools, I created this as makes it far easier to access these tools.
+
+## So where is your request actually going?
+
+1. Client/Server sends request to my backend
+2. My backend will authenticate your request and convert it to the relevant statements.
+3. My backend will forward your information to OpenAI. 
+4. OpenAI will authenticate my request then generate the relevant information using their AI software.
+5. OpenAI will send the information back, then my backend will forward that information back to you.
+
+## Endpoints
+
+### /gpt/gpt35/api
 
 This API takes two arguments (prompt and key). The prompt arg is what prompt you want the AI to write or generate. The key arg is your OpenAI API key. You must get an OpenAI key to use this API. You may find instructions for generating a key will be find [here](https://help.socialintents.com/article/188-how-to-find-your-openai-api-key-for-chatgpt). If you submit an invalid argument, the API will return with an error that will tell you the error code as well as what actually went wrong. Please note that this API is versatile, but should never be used in a public setting and only used in private testing to learn more about APIs. *this is because the API key is stored client side versus serverside* A wrapper on the server side is coming soon.
 
