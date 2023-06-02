@@ -6,7 +6,8 @@ Some technical details:
 
 model: `gpt-3.5-turbo`
 
-requst-method: `POST`
+request-method: `POST`
+
 
 
 Written by Dominic. 2023. 
