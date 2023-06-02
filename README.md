@@ -2,6 +2,11 @@
 
 Hello, and welcome to my OpenAI api wrapper. This is an easy to use wrapper that can be used FULLY client side. No need to setup a serverside environment.  
 
+Some technical details:
+
+model: `gpt-3.5-turbo`
+requst-method: `POST`
+
 Written by Dominic. 2023. 
 
 *azonix*
