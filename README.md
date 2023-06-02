@@ -29,11 +29,11 @@ async function requestGPT() { // This function can be renamed to anything.
     let res = await fetch('https://cs.catlin.edu/node/2023/dominic/gpt/gpt35/api', { // Requests my API with the arguments provided above.
         method: 'POST', // Post to the server (supports JSON)
         body: bodyArgs, // Defines the body that we filled out above.
-        headers: {'Content-Type': 'application/json'} // Default headers that are sent to the server specifying what is actually being set.
+        headers: {'Content-Type': 'application/json'} // Default headers that are sent to the server specifying what is actually being sent.
     });
     if (res.ok) { // Checks to ensure the response came back.
         let apiResponse = await response.text(); // Waits for response with await function. 
-        console.log(apiResponse); // The wrapper will always respond with a string. You can do whatever you want with this now. This will log it  to your web development console. You may access it through CTRL-SHIFT-I.
+        console.log(apiResponse); // The wrapper will always respond with a string. You can do whatever you want with this now. This will log it to your web development console. You may access it through the keybind 'CTRL-SHIFT-I'.
     }
 };
 ```
